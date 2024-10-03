@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    /* margin-right: 100px;
+    padding-top: 10px; */
+}
+
+.logo {
+    width: 220px;
+}
+
+.list-item {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+
+.list {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.list:hover {
+    color: rgb(255, 145, 67);
+    text-decoration: underline;
+}
+
+.home-content {
+    margin: 16% 0px 0px 10%;
+}
+
+#fname {
+    margin-bottom: 15px;
+    font-size: 90px;
+    font-family: "DM Serif Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#lname {
+    font-family: "DM Serif Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 145, 67);
+}
+
+#user-details {
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+#download {
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    background-color: black;
+    color: ghostwhite;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+#download:hover {
+    color: rgb(255, 145, 67);
+}
+
+.home-img {
+    width: 45%;
+    height: 88%;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
+
+.img-group {
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 25%;
+    transform: translateX(-25%);
+}
+
+.home-img:hover #shape {
+    bottom: 60px;
+}
+
+.home-img:hover #man {
+    left: 20%;
+}
+
+#about {
+    margin: 16% 10% 0px 10%;
+}
+
+.sectionHead {
+    text-align: center;
+}
+
+#mainHead {
+    font-size: 40px;
+}
+
+#subHead {
+    font-size: 25px;
+    color: green;
+}
+
+.aboutBody {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.img1 {
+    width: 88%;
+}
+
+.aboutContent {
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info{
+    margin-top: 1.3rem;
+}
+.infoBox{
+    margin-bottom: 10px;
+}
+.infoBox>span{
+    margin-left: 1rem;
+}
+
+#skill {
+    margin: 10% 10% 0px 10%;
+}
+.skillContent {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    margin-top: 20px;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.barname,.barpercentage{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(89, 85, 85);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.htmlbar{
+    background-color: rgb(255, 145, 67);
+    width: 75%;
+}
+.cssbar{
+    background-color: rgb(255, 145, 67);
+    width: 55%;
+}
+.jsbar{
+    background-color: rgb(255, 145, 67);
+    width: 80%;
+}
+.reactbar{
+    background-color: rgb(255, 145, 67);
+    width: 45%;
+}
+.skillimg{
+    padding-left: 5rem;
+    padding-top: 3rem;
+    justify-self: center;
+}
+.img-skill {
+    width: 90%; /* Adjusted for better fit */
+}
+
+#contact {
+    margin: 10% 10% 0px 10%;
+}
+
+.iconCollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    /* font-size: 40px; */
+}
